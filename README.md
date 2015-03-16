@@ -9,7 +9,7 @@ ZO RELAXEN UND WATSCHEN DER BLINKENLICHTEN.
 
 ### Status
 
-* This VM is configured to provide compile, flash, and debug capabilities for the STMD32F0-Discovery evaluation board from ST.com.  (http://www.st.com/stm32f0discovery)
+* The VM is configured to provide capabilities to compile, flash, and debug the STMD32F0-Discovery evaluation board.  (http://www.st.com/stm32f0discovery)
 
 * Currently, Vagrant/VirtualBox on the host must be run as superuser to allow VirtualBox to bridge the USB port to the VM.
 
@@ -19,5 +19,5 @@ ZO RELAXEN UND WATSCHEN DER BLINKENLICHTEN.
   * Download the extension here: https://www.virtualbox.org/wiki/Downloads
   * Install via: `sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-*.vbox-extpack`
 
-*** Changelog
-* v0.1 - 2015-03-16 - STM32F0 Discovery Toolchain on Ubuntu 14.10 amd64
+### Changelog
+* v0.1 - 2015-03-16 - Vagrantfile to create the STM32F0 Discovery toolchain on Ubuntu 14.10 amd64
